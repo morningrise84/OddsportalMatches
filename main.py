@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 path = r"""C:\Users\whatever\chromedriver.exe""" # provide path to chromedriver.exe here
 s = Service(path)
 driver = webdriver.Chrome(service=s)
-url = 'https://www.oddsportal.com/tennis/portugal/atp-estoril/' # provide page with the next standings ex. https://www.oddsportal.com/tennis/portugal/atp-estoril/
+url = 'https://www.oddsportal.com/whatever/' # provide page with the next standings ex. https://www.oddsportal.com/tennis/portugal/atp-estoril/
 driver.get(url)
 
 # Oddsportal Scraping
